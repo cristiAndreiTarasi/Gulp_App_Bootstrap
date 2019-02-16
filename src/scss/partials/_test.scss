@@ -1,0 +1,43 @@
+.jumbotron {
+    margin: 0;
+    border-radius: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #CF4547;
+
+    img {
+        width: 300px;
+        margin-bottom: 40px;
+        animation: gulp-pulse infinite 2s ease-in-out;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+        color: rgb(235, 235, 235);
+    }
+
+    p {
+        color: rgb(235, 235, 235);
+    }
+
+    code {
+        color: rgb(253, 255, 131);
+    }
+}
+
+@keyframes gulp-pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
